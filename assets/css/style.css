@@ -51,7 +51,6 @@ header nav ul {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-
     padding: 10px 10px 15px 10px;
 }
 
@@ -100,6 +99,7 @@ header nav ul li a {
 .about-me {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 .about-me h1 {
     flex: 1 1 20%;
@@ -119,6 +119,7 @@ header nav ul li a {
 .work {
     display: flex;
     flex-wrap: flex;
+    padding-bottom: 20px;
 }
 
 .work h1 {
@@ -130,16 +131,15 @@ header nav ul li a {
 
 }
 
-.projects img {
-    flex: 1 1 60%;
-    width: 100%;
+.work .projects img {
+    width: 80%;
     height: auto;
-    justify-content: space-between;
     border: solid 6px #92cccd;
-
 }
 
-.projects {
+.work .projects {
+   flex: 1 1 80%;
+   justify-content: center;
    padding: 20px;
 }
 
@@ -159,17 +159,19 @@ header nav ul li a {
 }
 
 .contact-me ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
     flex: 1 1 80%;
     list-style: none;
+
 }
 
 .contact-me ul li a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding: 10px 20px;
-    font-weight: lighter;
-    font-size: 1.5vw;
-    border-bottom: solid 4px #92cccd;
-    
+    font-weight: bold;
+    font-size: 1.8vw;
+    border-bottom: solid 4px #31343d;
+    color: #31343d;
+    text-decoration: none;
 }
