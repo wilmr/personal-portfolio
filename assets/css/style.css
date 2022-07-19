@@ -95,9 +95,6 @@ header nav ul li a {
 .hero-text h2 {
     margin: 0;
     font-size: 35px;
-    
-    
-
 }
 
 .about-me {
@@ -133,13 +130,46 @@ header nav ul li a {
 
 }
 
-.work img {
+.projects img {
     flex: 1 1 60%;
-    width: 80%;
+    width: 100%;
     height: auto;
     justify-content: space-between;
     border: solid 6px #92cccd;
 
 }
 
+.projects {
+   padding: 20px;
+}
 
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-me h1 {
+    flex: 1 1 20%;
+    text-align: right;
+    border-right: solid 5px #445876;
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+.contact-me ul {
+    flex: 1 1 80%;
+    list-style: none;
+}
+
+.contact-me ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    border-bottom: solid 4px #92cccd;
+    
+}
