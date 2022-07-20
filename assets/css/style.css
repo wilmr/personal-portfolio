@@ -132,15 +132,36 @@ header nav ul li a {
 }
 
 .work .projects img {
-    width: 80%;
-    height: auto;
+    width: 510px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    justify-content: center;
     border: solid 6px #92cccd;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.work .projects img:hover {
+    cursor: pointer;   
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .work .projects {
    flex: 1 1 80%;
-   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   max-width: 1440px;
+   width: 100%;
+   justify-content: space-around;
    padding: 20px;
+}
+
+.work .projects :first-child {
+    width: 1045px;
+    height: 400px;
 }
 
 
