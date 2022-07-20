@@ -133,13 +133,13 @@ header nav ul li a {
 }
 
 .work .projects img {
-    height: 300px;
+    height: 200px;
     width: 49%;
     object-fit: cover;
     object-position: top;
     border: solid 6px #92cccd;
     opacity: 0.5;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
     margin-right: 1px;
 }
 
@@ -156,7 +156,6 @@ header nav ul li a {
    justify-content: space-between;
    padding-left:60px;
    padding-right: 60px;
-   padding-bottom: 0;
 }
 
 .work .projects :first-child {
