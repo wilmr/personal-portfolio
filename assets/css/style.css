@@ -112,7 +112,8 @@ header nav ul li a {
 .about-me p {
     flex: 1 1 80%;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     font-size: large;
 }
 
@@ -132,15 +133,14 @@ header nav ul li a {
 }
 
 .work .projects img {
-    width: 510px;
-    height: 200px;
+    height: 300px;
+    width: 49%;
     object-fit: cover;
     object-position: top;
-    justify-content: center;
     border: solid 6px #92cccd;
     opacity: 0.5;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 1px;
+    margin-right: 1px;
 }
 
 .work .projects img:hover {
@@ -150,19 +150,24 @@ header nav ul li a {
 }
 
 .work .projects {
-   flex: 1 1 80%;
+   display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   max-width: 1440px;
-   width: 100%;
-   justify-content: space-around;
-   padding: 20px;
+   justify-content: space-between;
+   padding-left:60px;
+   padding-right: 60px;
+   padding-bottom: 0;
 }
 
 .work .projects :first-child {
-    width: 1045px;
-    height: 400px;
+    width: 100%;
+    height: 40%;
 }
+
+.work .projects:not(:first-child) {
+    flex: 1 1 80%;
+}
+
 
 
 .contact-me {
@@ -182,7 +187,7 @@ header nav ul li a {
 .contact-me ul {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 60px;
     flex: 1 1 80%;
     list-style: none;
 
@@ -191,7 +196,7 @@ header nav ul li a {
 .contact-me ul li a {
     padding: 10px 20px;
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     border-bottom: solid 4px #31343d;
     color: #445876;
     text-decoration: none;
