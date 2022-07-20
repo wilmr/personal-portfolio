@@ -200,3 +200,95 @@ header nav ul li a {
     color: #445876;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .work h1 {
+        flex: 1;
+    }
+
+    .about-me h1 {
+        flex: 1;
+        text-align: center;
+    }
+
+    .contact-me h1 {
+        padding: 20px;
+        flex: 1;
+        text-align: center;
+
+    }
+
+    .hero .overlay {
+        flex: 1;
+    }
+}
+
+    @media screen and (max-width: 575px) {
+
+        .work h1 {
+            flex: 1 100%;
+            text-align: center;
+            flex-basis: auto;
+        }
+
+        .work .projects {
+            flex-direction: row;
+            padding-bottom: 20%;
+            
+        }
+    
+        .about-me h1 {
+            flex: 1;
+            flex-basis: auto;
+            text-align: center;
+        }
+    
+        .contact-me h1 {
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+
+    
+        }
+
+        .contact-me ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: auto;
+            flex-direction: row;
+            justify-content: space-between;
+            
+
+        }
+    
+        .hero .overlay {
+            flex: 1;
+            align-items: center;
+            margin: auto;
+        }
+
+        .hero-text h2 {
+            flex: 1 100%;
+            margin-right: auto;
+        }
+
+
+        header nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;    
+            margin: auto;
+        }
+
+        header nav ul a {
+            margin: auto;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 2vw;
+            
+            
+        }
+    
+
+    }
